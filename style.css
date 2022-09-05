@@ -1,0 +1,152 @@
+
+
+/* *{
+    width: 100%;
+} */
+
+@media (max-width: 786px) {
+    div.first{
+        display: none;
+    }
+}
+@media (min-width: 786px) {
+    div.second{
+        display: none;
+    }
+}
+
+.plane{
+    display: none;
+
+}
+.plane li, .plan a {
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+i{
+    margin-right:10px;
+}
+div.first{
+    font-size: 15px;
+}
+div.logkk{
+    display: flex;
+
+}
+div.logkk {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.55);
+    border-color: rgba(255,255,255,.1);
+    margin: 0px 150px;
+}
+ul.navbar-nav{
+    font-size: 20px;
+    
+}
+ul.navbar-nav li{
+    margin: 0px 10px;
+}
+.bg{
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+     z-index: -1;
+     /* opacity: 0.6; */
+     
+}
+.cards{
+    display: flex;
+}
+.icons{
+    margin-top: 45px;
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+}
+.brands{
+    display: flex;
+}
+h1.hd{
+    text-align: center;
+    margin: 25px 0px;
+}
+
+hr {
+    border: 6px dotted;
+    border-style: dotted none none none;
+    height: 2px;
+    margin: 25px 30%;
+    color: grey;
+    
+    }
+ footer{
+    margin-top: 25px;
+ }
+ @media (min-width: 576px){
+ .navbar-expand-sm .navbar-nav .nav-link {
+     padding-right: 0.5rem;
+     padding-left: 0.5rem;
+     color: white;
+ }
+}
+div.info{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    top: 30%;
+    
+}
+div.info form{
+    line-height: 2;
+    background-color: white;
+    margin:0% 25%;
+    padding: 10px 0px;
+    border-radius: 22px;
+
+}
+div.info button{
+    margin-top: 20px;
+}
+div.info h1{
+    color: white;
+  
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.0rem;
+    background-color: black;
+    border-radius: 80px;
+    margin: 0px 10%;
+    margin-bottom: 30px;
+}
+@media (max-width:1000px){
+    div.info h1{
+        font-size:2rem;
+    }
+}
+@media (max-width:500px){
+    div.info h1{
+        font-size:1.5rem;
+    }
+}
+@media (max-width:400px){
+    div.info form{
+        margin: 0px;
+    }
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.55);
+    border-color: rgba(255,255,255,.1);
+    margin: 0px 0px;
+}
